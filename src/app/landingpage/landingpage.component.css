@@ -1,3 +1,197 @@
+@media screen and (max-width:1300px) {
+    .landing-section-container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
+    .landing-section{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        padding-bottom: 50px;
+    }
+    .banner-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .text-block-wrapper{
+        width: fit-content;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .get-in-touch-btn{
+        border-radius: 25px;
+        padding: 8px;
+        color: #E61F57;
+        width: 200px;
+        max-width: 250px;
+        background-color: white;
+        border: 2px solid #E61F57;
+        display: flex;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .get-in-touch-btn:hover{
+        cursor: pointer;
+        background-color: #E61F57;
+        color: white;
+        transition: 0.2s ease-in;
+    }
+    
+    .get-in-touch-btn:hover span{
+        transition: 0.2s ease-in;
+        transform: translateX(75%);
+    }
+    .banner-paragraph{
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+    p{
+        color: #707070;
+        font-size: 20px;
+        line-height: 1.5em;
+        font-weight: 400;
+        padding-bottom: 50px;
+    }
+    .banner-span-red{
+        background-image: url("/assets/red-splash.png");
+        background-position: 100% 85%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: #223645;
+    }
+    .banner-image{
+        position: relative;
+        width: 49%;
+    }
+    img{
+        width: 100%;
+    }
+    .landing-quote{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: Poppins, sans-serif;
+        color: #223645;
+        font-size: 40px;
+        line-height: 1.2em;
+        font-weight: 800;
+        max-width: 20em;
+    }
+    .departments-section-wrapper{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }   
+    
+    .departments-banner{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        width: max-content;
+        max-width: max-content;
+    }
+    
+    .dept-text-block-wrapper{
+        width: fit-content;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Dept-heading{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: Poppins, sans-serif;
+        color: #223645;
+        font-size: 50px;
+        line-height: 1.2em;
+        font-weight: 800;
+        max-width: 10em;
+    }
+    .Dept-seemore{
+        display: flex;
+        align-items: end;
+        padding: 8px;
+        padding-left: 8px;
+        color: #36807F;
+        cursor: pointer;
+        border-radius: 25px;
+        border: 2px solid #36807f;
+        max-width: 130px;
+        font-size: 24px;
+    }
+    .Dept-seemore:hover{
+        transition: 0.2s ease-in;
+        background-color: #36807F;
+        color: white;
+    }
+    h2{
+        font-weight: 600
+    }
+    .Dept-seemore span{
+        transition: 0.3s ease-in;
+    }
+    .Dept-seemore:hover span{
+        transform: translateX(50%);
+    }
+    p{
+        max-width: 500px;
+    }
+    .dept-banner-cards-1{
+        max-width: 600px;
+        margin-left: 20px;
+    }
+    /* .dots{
+        position: absolute;
+        right: 100px;
+    } */
+    .dept-banner-cards-2{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        position: relative;
+        top: 50px;
+        gap: 25px;
+        max-width: 600px;
+    }
+    .card-container{
+        width: 100%;
+        max-width: 200px;
+        margin-top: 20px;
+        padding: 30px 20px 15px;
+        border-radius: 10px;
+        background-color: #36807f;
+    }
+    .card-logo{
+        max-width: 60px;
+    }
+    .card-header{
+        margin-top: 10px;
+        font-family: Poppins, sans-serif;
+        color: white;
+        font-size: 20px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+    .card-desc{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: Poppins, sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 1.5em;
+        font-weight: 400;
+    } 
+}
+
+/*Bigger screens ie greater than 14 inches*/
+
+@media screen and (min-width:1300px) {
 .landing-section-container{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -6,7 +200,7 @@
 .landing-section{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    /* max-width: 1000px; */
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -185,4 +379,5 @@ p{
     font-size: 16px;
     line-height: 1.5em;
     font-weight: 400;
+}
 }
